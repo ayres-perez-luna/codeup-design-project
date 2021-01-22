@@ -4,6 +4,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
 
+:root {
+    --blue: #00ABA9;
+    --red: #E6563B;
+    --orange: #EB9D3A;
+    --green: #7CB06C;
+    --light-grey: #F0F0F0;
+    --med-grey: #E6E6E6;
+}
+
+
+
 body {
     background-color: #F0F0F0;
 }
@@ -45,4 +56,14 @@ p {
 
 .all-caps {
     text-transform: uppercase;
+}
+
+.grey-border {
+  border-color: var(--med-grey);
+    border: 60px;
+    border-radius: 10px;
+}
+
+.card-background {
+    background-color: var(--light-grey);
 }
