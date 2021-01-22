@@ -67,3 +67,64 @@ p {
 .card-background {
     background-color: var(--light-grey);
 }
+
+.small-red-circle {
+    background-color: var(--red);
+    width: 18px;
+    height: 18px;
+    /*margin-left: 5px;*/
+    border-radius: 100%;
+}
+
+.small-orange-circle {
+    background-color: var(--orange);
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+}
+
+.small-green-circle {
+    background-color: var(--green);
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+}
+
+.small-blue-circle {
+    background-color: var(--blue);
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+}
+
+.large-red-circle {
+    background-color: var(--red);
+    width: 105px;
+    height: 105px;
+    border-color: white;
+    border: 5px;
+    border-radius: 100%;
+}
+
+.large-orange-circle {
+    background-color: var(--orange);
+    width: 105px;
+    height: 105px;
+    border-radius: 100%;
+}
+
+.large-green-circle {
+    background-color: var(--green);
+    width: 105px;
+    height: 105px;
+    border-radius: 100%;
+}
+
+.large-blue-circle {
+    background-color: var(--blue);
+    width: 105px;
+    height: 105px;
+    border-color: white;
+    border: 5px;
+    border-radius: 100%;
+}
