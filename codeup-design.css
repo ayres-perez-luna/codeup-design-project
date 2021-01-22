@@ -1,0 +1,48 @@
+/*    font-family: 'Abel', sans-serif;*/
+/*    font-family: 'Anton', sans-serif;*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap');
+
+body {
+    background-color: #F0F0F0;
+}
+
+h1 {
+    font-size: 64px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 48px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+
+h4 {
+    font-size: 32px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+
+h5 {
+    font-size: 28px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Abel', sans-serif;
+}
+
+.all-caps {
+    text-transform: uppercase;
+}
