@@ -20,34 +20,35 @@ body {
 }
 
 h1 {
-    font-size: 64px;
+    font-size: 4em;
     font-family: 'Anton', sans-serif;
     text-align: center;
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 3em;
     font-family: 'Anton', sans-serif;
     text-align: center;
     text-transform: uppercase;
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 2.5em;
     font-family: 'Anton', sans-serif;
     text-align: center;
 }
 
 h4 {
-    font-size: 32px;
+    font-size: 2em;
     font-family: 'Anton', sans-serif;
     text-align: center;
 }
 
 h5 {
-    font-size: 28px;
+    font-size: 1.75em;
     font-family: 'Anton', sans-serif;
     text-align: center;
+    color: white;
 }
 
 p {
@@ -58,10 +59,14 @@ p {
     text-transform: uppercase;
 }
 
+.space {
+    margin-top: 2em;
+}
+
 .grey-border {
-  border-color: var(--med-grey);
-    border: 60px;
-    border-radius: 10px;
+    /*border-color: var(--med-grey);*/
+    border: .5em solid var(--med-grey);
+    /*border-radius: 6em;*/
 }
 
 .card-background {
@@ -70,38 +75,41 @@ p {
 
 .small-red-circle {
     background-color: var(--red);
-    width: 18px;
-    height: 18px;
-    /*margin-left: 5px;*/
+    width: 1.2em;
+    height: 1.2em;
+    margin-left: .5em;
     border-radius: 100%;
 }
 
 .small-orange-circle {
     background-color: var(--orange);
-    width: 18px;
-    height: 18px;
+    width: 1.2em;
+    height: 1.2em;
+    margin-left: .5em;
     border-radius: 100%;
 }
 
 .small-green-circle {
     background-color: var(--green);
-    width: 18px;
-    height: 18px;
+    width: 1.2em;
+    height: 1.2em;
+    margin-left: .5em;
     border-radius: 100%;
 }
 
 .small-blue-circle {
     background-color: var(--blue);
-    width: 18px;
-    height: 18px;
+    width: 1.2em;
+    height: 1.2em;
+    margin-left: .5em;
     border-radius: 100%;
 }
 
 .large-red-circle {
     background-color: var(--red);
-    width: 121px;
-    height: 121px;
-    border: 8px solid white;
+    width: 7.6em;
+    height: 7.6em;
+    border: .5em solid white;
     border-radius: 100%;
     display: flex;
     justify-content: center;
@@ -110,9 +118,9 @@ p {
 
 .large-orange-circle {
     background-color: var(--orange);
-    width: 121px;
-    height: 121px;
-    border: 8px solid white;
+    width: 7.6em;
+    height: 7.6em;
+    border: .5em solid white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -120,9 +128,9 @@ p {
 
 .large-green-circle {
     background-color: var(--green);
-    width: 121px;
-    height: 121px;
-    border:8px solid white;
+    width: 7.6em;
+    height: 7.6em;
+    border: .5em solid white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -131,12 +139,13 @@ p {
 
 .large-blue-circle {
     background-color: var(--blue);
-    width: 121px;
-    height: 121px;
-    border: 8px solid white;
+    width: 7.6em;
+    height: 7.6em;
+    border: .5em solid white;
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
+
