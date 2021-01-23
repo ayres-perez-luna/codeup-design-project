@@ -15,12 +15,10 @@
 
 .anton-font {
     font-family: 'Anton', sans-serif;
+    font-size: 11px;
+    margin-top: 2px;
 }
 
-.abel-featured-font {
-    font-family: 'Abel', sans-serif;
-    font-size: 2em;
-}
 
 
 body {
@@ -129,6 +127,7 @@ p {
     width: 7.6em;
     height: 7.6em;
     border: .5em solid white;
+    border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -139,6 +138,7 @@ p {
     width: 7.6em;
     height: 7.6em;
     border: .5em solid white;
+    border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -157,3 +157,23 @@ p {
 
 }
 
+
+/* small devices */
+@media (min-width: 576px) {
+
+}
+
+/* medium devices */
+@media (min-width: 768px) {
+
+}
+
+/* large devices */
+@media (min-width: 992px) {
+
+}
+
+/* extra large devices */
+@media (min-width: 1200px) {
+
+}
