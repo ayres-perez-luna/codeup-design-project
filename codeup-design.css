@@ -14,7 +14,9 @@
 
 }
 
-
+.light-grey {
+    background-color: var(--light-grey);
+}
 .anton-font {
     font-family: 'Anton', sans-serif;
     font-size: 11px;
@@ -163,9 +165,32 @@ p {
     border-radius: 50%;
     width: 9em;
     height: 9em;
+
 }
 
+.logo-container {
+   margin-top: 3em;
+    position: relative;
 
+}
+
+header {
+    height: 5em;
+}
+
+.logo{
+    width: 9em;
+    height: 9em;
+
+}
+
+img.logo {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -2em;
+
+}
 
 /* made their own class for colors */
 
@@ -194,61 +219,14 @@ p {
 
 
 
-/* orignal color circle code
 
-.large-red-circle {
-    background-color: var(--red);
-    width: 7.6em;
-    height: 7.6em;
-    border: .5em solid white;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.large-orange-circle {
-    background-color: var(--orange);
-    width: 7.6em;
-    height: 7.6em;
-    border: .5em solid white;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.large-green-circle {
-    background-color: var(--green);
-    width: 7.6em;
-    height: 7.6em;
-    border: .5em solid white;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.large-blue-circle {
-    background-color: var(--blue);
-    width: 7.6em;
-    height: 7.6em;
-    border: .5em solid white;
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-*/
 
 /* small devices */
 @media (min-width: 576px) {
     .selected-work {        /* this goes to the selected work portion to make it centered */
         text-align: center;
     }
+
 
 
 
@@ -260,7 +238,17 @@ p {
     .selected-work {      /* this will make that selected work portion to be aligned left */
         text-align: left;
     }
+    .logo-container {
+        margin-top: 3em;
+        position: relative;
 
+    }
+    img.logo {
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: -2em;
+    }
 
 
 }
