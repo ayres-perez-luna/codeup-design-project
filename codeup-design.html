@@ -12,20 +12,20 @@
 
 <section class="container">
 
-    <!-- Heading -->
+     <!-- Heading  -->
 
-    <div class="row">
+    <div class="row text-center">
         <div class="col-12">
-            <h1 class="space d-flex justify-content-center align-items-center">VISUAL DESIGN & WEB DEVELOPMENT</h1>
+            <h1 class="text-center space">VISUAL DESIGN & WEB DEVELOPMENT</h1>
         </div>
     </div>
-    <!-- location -->
-    <div>
-        <h2 class="all-caps space">From Park City, Utah</h2>
+   <!--  location -->
+    <div class="col-12">
+        <h3 class="text-center all-caps space">From Park City, Utah</h3>
     </div>
 
     <!-- large circles -->
-
+<!-- original code --
     <div class="row space">
         <div class="col-6 col-sm-3">
             <div class="my-4">
@@ -38,9 +38,9 @@
             </div>
         </div>
 
-        <!-- circle break points
+         circle break points
                         <div class="w-100 my-3 d-md-none"></div>
-        -->
+
 
         <div class="col-6 col-sm-3">
             <div class="my-4">
@@ -53,26 +53,45 @@
             </div>
         </div>
     </div>
+
+    -->
+
+
+
+<!-- circle made on 1/23
+        a little bit more specified i made the circle class
+        also made classes for our color variables -->
+
+
+    <section class="col-12 d-flex justify-content-center flex-wrap">
+        <div class="circle text-resize text-white red">DESIGN</div>
+        <div class="circle text-resize text-white orange">DEVELOP</div>
+        <div class="circle text-resize text-white green">SUPPORT</div>
+        <div class="circle text-resize text-white blue">HOST</div>
+    </section>
+
+
+
+
+
     <hr class="space">
 </section>
 
 
+
+<!-- featured work display -->
 <section class="container">
-    <!--    <div class="col">-->
-
-
-
-    <!-- featured work display -->
-
     <div class="row">
-        <div class="col-12 col-md-8">
+        <div class="col-12 col-md-8 col-lg-8">
             <div>
-                <p class="d-flex justify-content-center space">SELECTED WORK</p>
+                <p class="space selected-work">SELECTED WORK</p>
             </div>
+
+   <!-- Apple ipad featured project -->
             <div class="row">
                 <div class="col-12 col-sm-6">
                     <div class="col d-flex justify-content-center">
-                        <div class="card card-background border-0 w-100 p-3" style="width: 18rem;">
+                        <div class="card card-background border-0" style="width: 18rem;">
                             <img class="card-img-top grey-border" src="assets/images/apple-ipad.jpg" alt="apple ipad">
 
                             <div class="row card-body px-0">
@@ -101,16 +120,29 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col d-none d-sm-flex justify-content-center">
-                        <div class="card card-background border-0 w-100 p-3" style="width: 18rem;">
-                            <img class="card-img-top grey-border" src="assets/images/man.jpg" alt="man">
 
+        <!-- man featured project -->
+
+                    <div class="row d-none d-sm-flex justify-content-center">
+                        <div class="card card-background border-0 w-100" style="width: 18rem;">
+                            <img class="card-img-top grey-border" src="assets/images/man.jpg" alt="man">
                             <div class="row card-body px-0">
                                 <div class="col-6">
                                     <p class="card-text">FEATURED PROJECT</p>
                                 </div>
+                                  <!-- these are small circles that are a little bit more simplified
+                                        i made a class of small-circles for the size of the circle
+                                        us
+                                      -->
 
-                                <!-- little circles -->
+                                        <div>
+                                            <span class="badge small-circles rounded-circle mr-1 anton-font red">D</span>
+                                            <span class="badge small-circles rounded-circle mr-1 anton-font orange">D</span>
+                                            <span class="badge small-circles rounded-circle mr-1 anton-font green">S</span>
+                                            <span class="badge small-circles rounded-circle mr-1 anton-font blue">H</span>
+                                        </div>
+
+                    <!-- original little circles for the man featured project little circles
                                 <div class="col-6">
                                     <div class="row d-flex justify-content-end mr-0">
                                         <div class="small-red-circle">
@@ -126,16 +158,19 @@
                                             <p class="anton-font d-flex justify-content-center align-items-center">H</p>
                                         </div>
                                     </div>
-                                </div>
+                                </div>  -->
 
                             </div>
                         </div>
                     </div>
                 </div>
+
+        <!-- macbook featured project -->
+
                 <div class="col-6">
                     <div class="col col d-flex justify-content-center">
                         <div class="col d-none d-sm-flex justify-content-center col">
-                            <div class="card card-background border-0 w-100 p-3" style="width: 18rem;">
+                            <div class="card card-background border-0 w-100" style="width: 18rem;">
                                 <img class="card-img-top grey-border" src="assets/images/macbook.jpg"
                                      alt="macbook">
 
@@ -170,8 +205,9 @@
                             </div>
                         </div>
                     </div>
+        <!-- security featured project -->
                     <div class="col d-none d-sm-flex justify-content-center">
-                        <div class="card card-background border-0 w-100 p-3" style="width: 18rem;">
+                        <div class="card card-background border-0" style="width: 18rem;">
                             <img class="card-img-top grey-border" src="assets/images/security.jpg" alt="security">
 
                             <div class="row card-body px-0">
@@ -205,10 +241,23 @@
         </div>
 
 <!--        THIS WILL BE FOR THE RIGHT SIDE STUFF-->
+        <!-- the last column and the images is one column and the article is another column. the selected work, images, and the article names make 3 columns  -->
 
-        <div class="col-md-4">
+        <div class="row d-none d-md-flex col-md-4">
+            <div class="col">
+                <p class="space">THE LAST</p>
+            </div>
             <div>
-                <p class="d-flex space">THE LAST</p>
+                <img src="assets/images/mobile-phone.jpg" alt="phone" class="img-thumbnail" width="88px" height="88px">
+                <h5>THE ADMIN BAR AND ABSOLUTE POSITIONING</h5>
+            </div>
+            <div>
+                <img src="assets/images/head.jpg" alt="..." class="img-thumbnail" width="88px" height="88px">
+                <h5>NIBBLER AWESOME WEBSITE</h5>
+            </div>
+            <div>
+                <img src="assets/images/ipad.jpg" alt="..." class="img-thumbnail" width="88px" height="88px">
+                <h5>HOW TO GET GOOGLE TO LIKE YOU</h5>
             </div>
         </div>
     </div>
