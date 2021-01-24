@@ -14,10 +14,30 @@
 
 }
 
+
 .anton-font {
     font-family: 'Anton', sans-serif;
     font-size: 11px;
     margin-top: 2px;
+}
+
+.abel-font {
+    font-family: 'Abel', sans-serif;
+    margin-top: 2px;
+}
+
+.abel-font-nav-med {
+    font-family: 'Abel', sans-serif;
+    font-size: 40px;
+    margin-left: 3px;
+}
+
+.abel-font-nav {
+    font-family: 'Abel', sans-serif;
+    font-size: 18px;
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 
