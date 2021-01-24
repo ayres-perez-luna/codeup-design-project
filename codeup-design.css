@@ -11,6 +11,7 @@
     --green: #7CB06C;
     --light-grey: #F0F0F0;
     --med-grey: #E6E6E6;
+
 }
 
 .anton-font {
@@ -23,6 +24,8 @@
 
 body {
     background-color: #F0F0F0;
+    text-align: center;
+    margin: 0;
 }
 
 h1 {
@@ -54,7 +57,6 @@ h5 {
     font-size: 1.75em;
     font-family: 'Anton', sans-serif;
     text-align: center;
-    color: white;
 }
 
 p {
@@ -110,6 +112,69 @@ p {
     margin-left: .5em;
     border-radius: 100%;
 }
+/*
+.circles {
+    border-radius: 100%;
+    width: 7.6em;
+    height: 7.6em;
+    border: .5em solid white;
+    margin: 1em;
+}
+
+.circle-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    flex-wrap: wrap;
+}
+
+
+ */
+
+
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Anton', sans-serif;
+    margin: .5em;
+    border: .5em solid white;
+    border-radius: 50%;
+    width: 9em;
+    height: 9em;
+}
+
+
+
+/* made their own class for colors */
+
+.red {
+    background-color: var(--red);
+
+}
+
+.orange {
+    background-color: var(--orange);
+}
+
+.blue {
+    background-color: var(--blue);
+}
+
+.green {
+    background-color: var(--green);
+}
+
+.small-circles {
+    width: 18px;
+    height: 18px;
+    align-content: center;
+}
+
+
+
+/* orignal color circle code
 
 .large-red-circle {
     background-color: var(--red);
@@ -157,19 +222,32 @@ p {
 
 }
 
+*/
 
 /* small devices */
 @media (min-width: 576px) {
+    .selected-work {        /* this goes to the selected work portion to make it centered */
+        text-align: center;
+    }
+
+
+
 
 }
 
 /* medium devices */
 @media (min-width: 768px) {
+    .selected-work {      /* this will make that selected work portion to be aligned left */
+        text-align: left;
+    }
+
+
 
 }
 
 /* large devices */
 @media (min-width: 992px) {
+
 
 }
 
