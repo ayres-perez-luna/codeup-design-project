@@ -149,25 +149,7 @@ p {
     margin-left: .5em;
     border-radius: 100%;
 }
-/*
-.circles {
-    border-radius: 100%;
-    width: 7.6em;
-    height: 7.6em;
-    border: .5em solid white;
-    margin: 1em;
-}
 
-.circle-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Anton', sans-serif;
-    flex-wrap: wrap;
-}
-
-
- */
 
 
 .circle {
