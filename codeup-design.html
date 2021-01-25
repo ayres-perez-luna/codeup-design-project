@@ -65,38 +65,34 @@
 
 <!--  Medium Screen Nav original-->
 
-<!--<header class="logo-container">-->
-<!--    <nav class="navbar navbar-expand-lg navbar-light bg-light">-->
-<!--        <a class="navbar-brand ml-5">-->
-<!--            <img src="assets/logo.png" width="105px" height="105px" alt="logo">-->
-<!--            <span class="abel-font-nav-med">codeup design</span>-->
-<!--        </a>-->
+<header class="d-none d-md-block d-lg-none">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mt-5">
+        <!--            <a class="navbar-brand ml-5">-->
+        <img src="assets/logo.png" width="105px" height="105px" alt="logo">
+        <span class="abel-font-nav-med">codeup design</span>
+        <!--            </a>-->
 <!--        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">-->
-<!--            <div class="nav">-->
-<!--                <a class="nav-item nav-link active abel-font text-dark" href="#">SERVICES <span class="sr-only">-->
-<!--                    (current)</span></a>-->
-<!--                <a class="nav-item nav-link abel-font text-dark" href="#">WORK</a>-->
-<!--                <a class="nav-item nav-link abel-font text-dark" href="#">BLOG</a>-->
-<!--                <a class="nav-item nav-link abel-font text-dark" href="#">CONTACT</a>-->
-<!--            </div>-->
+            <div class="nav">
+                <a class="nav-item nav-link active abel-font text-dark" href="#">SERVICES</a>
+                <a class="nav-item nav-link abel-font text-dark" href="#">WORK</a>
+                <a class="nav-item nav-link abel-font text-dark" href="#">BLOG</a>
+                <a class="nav-item nav-link abel-font text-dark" href="#">CONTACT</a>
+            </div>
 <!--        </div>-->
-<!--    </nav>-->
-<!--</header>-->
+    </nav>
+</header>
 
 
 <!-- Large and Extra Screen Nav-->
-<!--
-<section>
-    <nav class="navbar navbar-expand-lg navbar-light">
+
+<header class="d-none d-lg-block d-md-none">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mt-5">
         <div class="container">
-            <a class="navbar-brand ml-5">
-                <img src="assets/logo.png" width="105px" height="105px" alt="logo">
-                <span class="abel-font-nav-med">codeup design</span>
-            </a>
+            <img src="assets/logo.png" width="105px" height="105px" alt="logo">
+            <span class="abel-font-nav-med">codeup design</span>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="nav">
-                    <a class="nav-item nav-link active abel-font text-dark" href="#">SERVICES <span class="sr-only">
-                    (current)</span></a>
+                    <a class="nav-item nav-link active abel-font text-dark" href="#">SERVICES</a>
                     <a class="nav-item nav-link abel-font text-dark" href="#">WORK</a>
                     <a class="nav-item nav-link abel-font text-dark" href="#">BLOG</a>
                     <a class="nav-item nav-link abel-font text-dark" href="#">CONTACT</a>
@@ -104,12 +100,12 @@
             </div>
         </div>
     </nav>
-</section>
-<--
+</header>
 
-<section class="container">
 
-    <!--     Heading  -->
+<!--<section class="container">-->
+
+<!--      Heading  &ndash;&gt;-->
 
 <div class="row text-center">
     <div class="col-12">
@@ -117,7 +113,7 @@
     </div>
 </div>
 <!--  location -->
-<div class="col-12">
+<div class="col-12 space">
     <h3 class="text-center all-caps space">From Park City, Utah</h3>
 </div>
 
@@ -159,7 +155,7 @@
         also made classes for our color variables -->
 
 
-<section class="col-12 d-flex justify-content-center flex-wrap">
+<section class="col-12 d-flex justify-content-center flex-wrap space">
     <div class="circle text-resize text-white red">DESIGN</div>
     <div class="circle text-resize text-white orange">DEVELOP</div>
     <div class="circle text-resize text-white green">SUPPORT</div>
@@ -218,7 +214,7 @@
                     <!-- man featured project -->
 
                     <div class="row d-none d-sm-flex justify-content-center">
-                        <div class="card card-background border-0 w-100" style="width: 18rem;">
+                        <div class="card card-background border-0" style="width: 18rem;">
                             <img class="card-img-top grey-border" src="assets/images/man.jpg" alt="man">
                             <div class="row card-body px-0">
                                 <div class="col-6">
@@ -229,14 +225,14 @@
                                       us
                                     -->
 
-                                <div>
-                                    <span class="badge small-circles rounded-circle mr-1 anton-font red">D</span>
-                                    <span class="badge small-circles rounded-circle mr-1 anton-font orange">D</span>
-                                    <span class="badge small-circles rounded-circle mr-1 anton-font green">S</span>
-                                    <span class="badge small-circles rounded-circle mr-1 anton-font blue">H</span>
-                                </div>
+<!--                                <div>-->
+<!--                                    <span class="badge small-circles rounded-circle mr-1 anton-font red">D</span>-->
+<!--                                    <span class="badge small-circles rounded-circle mr-1 anton-font orange">D</span>-->
+<!--                                    <span class="badge small-circles rounded-circle mr-1 anton-font green">S</span>-->
+<!--                                    <span class="badge small-circles rounded-circle mr-1 anton-font blue">H</span>-->
+<!--                                </div>-->
 
-                                <!-- original little circles for the man featured project little circles
+                                <!-- original little circles for the man featured project little circles -->
                                             <div class="col-6">
                                                 <div class="row d-flex justify-content-end mr-0">
                                                     <div class="small-red-circle">
@@ -252,7 +248,7 @@
                                                         <p class="anton-font d-flex justify-content-center align-items-center">H</p>
                                                     </div>
                                                 </div>
-                                            </div>  -->
+                                            </div>
 
                             </div>
                         </div>
@@ -344,33 +340,35 @@
                 </div>
                 <div class="row">
                     <div class="col-4">
-                        <img src="assets/images/mobile-phone.jpg" alt="phone" class="img-thumbnail" width="88px"
+                        <img src="assets/images/mobile-phone.jpg" alt="phone" class="img-thumbnail last-img" width="88px"
                              height="88px">
-                        <img src="assets/images/head.jpg" alt="..." class="img-thumbnail" width="88px" height="88px">
-                        <img src="assets/images/ipad.jpg" alt="..." class="img-thumbnail" width="88px" height="88px">
+                        <img src="assets/images/head.jpg" alt="..." class="img-thumbnail last-img" width="88px" height="88px">
+                        <img src="assets/images/ipad.jpg" alt="..." class="img-thumbnail last-img" width="88px" height="88px">
                     </div>
                     <div class="col-8">
-                        <h5>THE ADMIN BAR AND ABSOLUTE POSITIONING</h5>
-                        <h5>NIBBLER AWESOME WEBSITE</h5>
-                        <h5>HOW TO GET GOOGLE TO LIKE YOU</h5>
+                        <h5 class="anton-font-last">THE ADMIN BAR AND ABSOLUTE POSITIONING</h5>
+                        <h5 class="anton-font-last">NIBBLER AWESOME WEBSITE</h5>
+                        <h5 class="anton-font-last">HOW TO GET GOOGLE TO LIKE YOU</h5>
                     </div>
                 </div>
                 <div class="col">
                     <div class="row">
-                        <div class="col-2">
+<!--                        <div class="col-2">-->
                             <i class="fab fa-twitter fa-2x"></i>
-                        </div>
-                        <div class="col-10">
+<!--                        </div>-->
+<!--                        <div class="col-10">-->
                             <p class="space">LAST TWEET</p>
-                        </div>
+<!--                        </div>-->
                     </div>
-                <div class="row">
-                    <p class="justify-text-left">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium, alias aspernatur autem blanditiis cumque debitis
-                        deserunt, dolore et exercitationem iste odio officia officiis optio, porro quam rem ullam voluptatem?
-                    </p>
+                    <div class="row">
+                        <p class="text-left">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium, alias
+                            aspernatur autem blanditiis cumque debitis
+                            deserunt, dolore et exercitationem iste odio officia officiis optio, porro quam rem ullam
+                            voluptatem?
+                        </p>
 
-                </div>
+                    </div>
 
 
                 </div>
